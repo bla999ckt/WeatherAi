@@ -98,6 +98,19 @@ main.clear {
     background-image: url('../img/clear.jpeg');
 }
 
+.error {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.8); 
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold; 
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5); 
+    width: fit-content;
+}
+
 .side-container{
     display: flex;
     flex-direction: column;
