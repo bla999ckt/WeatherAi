@@ -3,6 +3,20 @@
 ## Overview
 This project is a Django-based AI system that fetches real-time weather data and predicts future temperature and humidity levels based on historical data. It utilizes OpenWeatherMap API for live weather updates and machine learning models for forecasting.
 
+## User Interface & Output
+---
+![weather_ai_error_handeling](images/weather_ai_output1.png)
+
+---
+![weather_ai_error_handeling](images/weather_ai_output2.png)
+
+---
+![weather_ai_error_handeling](images/weather_ai_output3.png)
+
+---
+![weather_ai_error_handeling](images/weather_ai_output4.png)
+
+---
 ## Features
 - **Real-time Weather Data:** Fetches current weather conditions such as temperature, humidity, pressure, wind speed, and visibility.
 - **Weather Forecasting:** Uses machine learning models (Random Forest) to predict future temperature and humidity.
@@ -15,6 +29,11 @@ This project is a Django-based AI system that fetches real-time weather data and
 - **Machine Learning:** Scikit-learn (Random Forest Classifier & Regressor)
 - **Data Processing:** Pandas, NumPy
 - **API Integration:** OpenWeatherMap API
+
+## Model Performance & Mean Error
+The Mean Squared Error (MSE) for the rain prediction model is **0.1506849315068493**. 
+This indicates that the model's predictions are close to actual values, with lower MSE values meaning better accuracy.
+![MSE](images/MSE.png)
 
 ## Installation
 ### Prerequisites
@@ -55,6 +74,7 @@ Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 - If the user enters an invalid city, an error message is displayed instead of breaking the application.
 - API request failures are handled to prevent crashes.
 - Missing or incorrect data in historical records is cleaned before model training.
+![weather_ai_error_handeling](images/weather_ai_error_handeling.png)
 
 ## File Structure
 ```
