@@ -5,16 +5,16 @@ This project is a Django-based AI system that fetches real-time weather data and
 
 ## User Interface & Output
 
-![weather_ai_error_handeling](images/weather_ai_output1.png)
+![weather_ai_output1](images/weather_ai_output1.png)
 
 ---
-![weather_ai_error_handeling](images/weather_ai_output2.png)
+![weather_ai_output2](images/weather_ai_output2.png)
 
 ---
-![weather_ai_error_handeling](images/weather_ai_output3.png)
+![weather_ai_output3](images/weather_ai_output3.png)
 
 ---
-![weather_ai_error_handeling](images/weather_ai_output4.png)
+![weather_ai_output4](images/weather_ai_output4.png)
 
 ## Features
 - **Real-time Weather Data:** Fetches current weather conditions such as temperature, humidity, pressure, wind speed, and visibility.
