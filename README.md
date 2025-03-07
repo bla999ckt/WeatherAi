@@ -4,7 +4,7 @@
 This project is a Django-based AI system that fetches real-time weather data and predicts future temperature and humidity levels based on historical data. It utilizes OpenWeatherMap API for live weather updates and machine learning models for forecasting.
 
 ## User Interface & Output
----
+
 ![weather_ai_error_handeling](images/weather_ai_output1.png)
 
 ---
@@ -16,7 +16,6 @@ This project is a Django-based AI system that fetches real-time weather data and
 ---
 ![weather_ai_error_handeling](images/weather_ai_output4.png)
 
----
 ## Features
 - **Real-time Weather Data:** Fetches current weather conditions such as temperature, humidity, pressure, wind speed, and visibility.
 - **Weather Forecasting:** Uses machine learning models (Random Forest) to predict future temperature and humidity.
